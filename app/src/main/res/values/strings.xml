@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Entrepreneur Society</string>
+    <string name="tagline">Define Your Own Success</string>
+    <string name="developerinfo">Default</string>
+    <string name="logo">logo</string>
+    <string name="string_logo" />
+    <string name="welcome">Welcome!!!</string>
+    <string name="login_to_continue">Login/Register to Continue</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="enter_your_password">Enter your password...</string>
+    <string name="login">Login</string>
+    <string name="invalid_phone">Invalid Phone Number!\nPhone Number must have 10 Digits</string>
+    <string name="invalid_password">Invalid Password!\nPassword must have: \nAt least 1 special character\nNo white spaces\nAt least 4 characters</string>
+    <string name="product_registeration">Product Registeration</string>
+    <string name="product_name">Product Name</string>
+    <string name="product_category">Product Category</string>
+    <string name="submit">Submit</string>
+    <string name="register">Register</string>
+    <string name="clickable_logo_image">Clickable LOGO Image</string>
+    <string name="alredy_a_user_login">Already a user? Login</string>
+    <string name="username">Username</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="new_here_register_now">New here? Register Now!</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home_fragment">Home Fragment</string>
+    <string name="notification_fragment">Notification Fragment</string>
+    <string name="profile_fragment">Profile Fragment</string>
+    <string name="search_fragment">Search  Fragment</string>
+    <string name="descrption">Describe Your Idea Here! \nAlso give an approximate budget...</string>
+    <string name="image_adding">Image Adding</string>
+    <string name="post">POST</string>
+    <string name="close">close</string>
+</resources>

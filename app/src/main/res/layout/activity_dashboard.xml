@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Dashboard"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <ImageView
+        android:id="@+id/logoImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:contentDescription="@string/logo"
+        android:transitionName="logo_image"
+        app:srcCompat="@drawable/logolong2"
+        tools:targetApi="lollipop" />
+
+
+    <LinearLayout
+        android:id="@+id/linear_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20sp"
+        android:layout_marginBottom="20sp"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/Welcome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:fontFamily="@font/bungee_inline"
+            android:gravity="center"
+            android:text="@string/welcome"
+            android:textColor="@color/colorBlack"
+            android:textSize="50sp"
+            android:transitionName="slogan"
+            tools:targetApi="lollipop" />
+
+        <TextView
+            android:id="@+id/login_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Welcome"
+            android:fontFamily="@font/antic_slab"
+            android:text="@string/login_to_continue"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:textColor="@color/colorBlack"
+            tools:ignore="RtlHardcoded" />
+
+        <Button
+            android:id="@+id/login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/login"
+            android:layout_gravity="center"
+            android:background="@drawable/button_background"
+            android:textColor="@color/colorBlack"
+            android:textAllCaps="false"
+            android:layout_marginTop="5sp"
+            android:layout_marginBottom="5sp"/>
+        <Button
+            android:id="@+id/register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/register"
+            android:layout_gravity="center"
+            android:background="@drawable/button_background"
+            android:textColor="@color/colorBlack"
+            android:textAllCaps="false"
+            android:layout_marginTop="5sp"
+            android:layout_marginBottom="5sp"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

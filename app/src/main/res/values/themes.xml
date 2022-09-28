@@ -1,0 +1,11 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.EntrepreneurSociety" parent="Theme.MaterialComponents.Light.NoActionBar.Bridge">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#455cde</item>
+        <item name="colorPrimaryDark">#000d3d</item>
+        <item name="colorAccent">#c2bdbf</item>
+
+        <!-- Customize your theme here. -->
+    </style>
+</resources>
