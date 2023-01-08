@@ -1,2 +1,3 @@
 # Entrepreneur-Society-App-main
- App Demo: https://youtu.be/QRfWwFJrcz0
+Social Media for Penny Stock Investors.
+App Demo: https://youtu.be/QRfWwFJrcz0
